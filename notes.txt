@@ -1,1 +1,5 @@
 Recursion	-	when a function calls itself until a specific condition is met.
+
+if function is not ended properly, it will call infinitely and cause stack overflow [java.lang.StackOverflowError].
+need to write base condition to terminate the recursion.
+
