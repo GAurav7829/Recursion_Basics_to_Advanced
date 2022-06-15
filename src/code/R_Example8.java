@@ -13,6 +13,7 @@ public class R_Example8 {
 		System.out.println("By Recursion: "+byRecursion(n));
 	}
 
+	//Time Complexity: O(n)
 	private static int byForLoop(int n) {
 		int a = 0, b = 1, c;
 		if (n == 0)
@@ -29,6 +30,7 @@ public class R_Example8 {
 		return b;
 	}
 	
+	//Time Complexity: O(2^n)
 	private static int byRecursion(int n) {
 		if(n<=1)
 			return n;
