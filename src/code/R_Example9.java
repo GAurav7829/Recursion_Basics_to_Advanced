@@ -27,12 +27,12 @@ public class R_Example9 {
 				System.out.println("[]");
 			}
 		}else {
-			//sub-sequence without including the current index
+			//pick index element
 			path.add(arr[index]);
 			subSequence(arr, index+1, path);
 			//remove recently inserted elements
 			path.remove(path.size()-1);
-			//sub-sequence including the current index
+			//not pick index element
 			subSequence(arr, index+1, path);	
 		}
 		return;
